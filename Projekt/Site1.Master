@@ -1,0 +1,48 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.master.vb" Inherits="Projekt.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+      <header>
+        <div class="nav">
+            <a href="test">Strona główna</a>
+        <a href="test">Chuj</a>
+        <a href="test">Artykuły</a>
+        <a href="test">Logowanie</a>
+            
+        </div>
+          </header>
+        <div class="content"> 
+            <div class="content1">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <p>
+                    &nbsp;</p>
+            </asp:ContentPlaceHolder>
+                </div>
+            <div class="content2">
+                </div>
+        </div>
+        <div class="footer">
+            Copyright Oskar Mikołajczak Stanisław Zimiński Max Schutz
+
+        r2" runat="server">
+            </asp:ContentPlaceHolder>
+
+            </div>
+        </div>
+        <div class="footer">
+            Copyright Oskar Mikołajczak Stanisław Zimiński Max Schutz
+
+        </div>
+    </form>
+</body>
+</html>
